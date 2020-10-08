@@ -1,3 +1,7 @@
+---
+# this is an empty front matter
+---
+
 <!DOCTYPE HTML>
 <!--
 	Escape Velocity by HTML5 UP
@@ -24,11 +28,9 @@
 
 			<!-- Header -->
 				<section id="header" class="wrapper">
-
 					<!-- Logo -->
 						<div id="logo">
 							<h1><a href="index.html">D R (I) V (E) N</a></h1>
-							<p>(Marketing) Brains or Hands.</p>
 						</div>
 				</section>
 
@@ -36,6 +38,8 @@
 				<section id="intro" class="wrapper style1">
 					<div class="title">About</div>
 					<div class="container">
+						<p class="style1"><strong>D R (I) V (E) N</strong></p>
+						<p>Hire Us And Add (Marketing) Brains or Hands. Or Both.</p>
 						<p class="style1">
 							DR(I)V(E)N is a nimble marketing agency that provides tailor-made solutions.
 						</p>
@@ -71,20 +75,20 @@
 									<div class="row">
 										<div class="col-6 col-12-medium">
 											<section>
-												<h3 class="icon fa-comment">Strategic Thinking</h3>
-												<p>With a broad knowledge of business processes, we are perfectly suited in assisting in strategic thinking. Where do you or does your company want to be in 10 years time?</p>
+												<h3 class="icon fa-comment">Strategic Advice</h3>
+												<p>With years of experience, a broad knowledge and understanding of the current available technolgy and knowledge about business processes, we are perfectly suited in assisting in strategic thinking. How and where to optimize or automate?  Where do you or does your company want to be in 10 years time?</p>
 											</section>
 										</div>
 										<div class="col-6 col-12-medium">
 											<section>
 												<h3 class="icon solid fa-sync">Marketing Technolgy Landscaping</h3>
-												<p>Today, there are more than 8.000 marketing tools of all sorts available in the market. We assist in choosing the right solution for your situation.</p>
+												<p>Today, there are more than 8.000 marketing tools of all sorts available in the market. We assist in choosing the right solution for your situation. Think of hooking HubSpot up to Google Sheets via Zapier, or syncing CRM data to and from a legacy system.</p>
 											</section>
 										</div>
 										<div class="col-6 col-12-medium">
 											<section>
 												<h3 class="icon fa-image">Marketing Automation</h3>
-												<p>Using top-notch digital marketing technolgy, automation can drive your marketing processes. Newsletters, workflows, chatbots, ... we got you covered.</p>
+												<p>Using top-notch digital marketing technolgy, automation can drive your marketing or sales processes. Newsletters, workflows, chatbots, ... we got you covered. In B2C contexts as well in B2B.</p>
 											</section>
 										</div>
 										<div class="col-6 col-12-medium">
@@ -114,71 +118,10 @@
 
 			<!-- Footer -->
 				<section id="footer" class="wrapper">
-					<div class="title">The Rest Of It</div>
-					<div class="container">
-						<header class="style1">
-							<h2>Like to contact us?</h2>
-							<p>
-								Fill out our contact form!
-							</p>
-						</header>
-						<div class="row">
-							<div class="col-6 col-12-medium">
-
-								<!-- Contact Form -->
-									<section>
-										<!--[if lte IE 8]>
-										<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-										<![endif]-->
-										<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-										<script>
-										  hbspt.forms.create({
-											portalId: "8571490",
-											formId: "18de6d34-cafb-45ce-8439-a6303aa77cda"
-										});
-										</script>
-									</section>
-
-							</div>
-							<div class="col-6 col-12-medium">
-
-								<!-- Contact -->
-									<section class="feature-list small">
-										<div class="row">
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-home">Mailing Address</h3>
-													<p>
-														Wippelgem Dorp 63<br />
-														9940 Evergem<br />
-														BELGIUM
-													</p>
-												</section>
-											</div>
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-building">Company</h3>
-													<p>
-														DRVN bvba<br />
-														BE0838.468.097
-													</p>
-												</section>
-											</div>
-										</div>
-									</section>
-
-							</div>
-						</div>
-						<div id="copyright">
-							<ul>
-								<li>&copy; 2020 DRVN bvba</li><li>All rights reseverd.</li>
-							</ul>
-						</div>
-					</div>
+					{% include footer.html %}
 				</section>
 
 		</div>
-
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
