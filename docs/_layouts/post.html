@@ -1,0 +1,26 @@
+---
+title: post.title
+layout: default
+---
+<section id="main" class="wrapper style2">
+	<div class="title">{{ page.short_title }}</div>
+	<div class="container">
+		<!-- Image -->
+		<a href="#" class="image featured">
+			<img src="{{ page.image }}" alt="" />
+		</a>
+		<section id="features">
+			<div class="feature-list">
+				<div class="row">
+					<div class="col-12">
+						<section>
+							<h3><a href="{{ post.url }}">{{ page.title }}</a></h3>
+							<p>{{ page.date }} - Written by {{ page.author }}</p>
+							<p>{{ content }}</p>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</section>
