@@ -2146,6 +2146,7 @@ input, select, textarea {
 		width: auto;     
         height: 100%;
 		z-index: -10;
+		overflow:hidden;
 	}
 
 /* Logo */
