@@ -176,6 +176,21 @@ input, select, textarea {
 		margin-bottom: 2em;
 	}
 
+	mark {
+	  margin: 0 -0.4em;
+	  padding: 0.1em 0.4em;
+	  border-radius: 0.8em 0.3em;
+	  background: transparent;
+	  background-image: linear-gradient(
+	    to right,
+	    #66FCF1,
+	    #b8fbff 4%,
+	    #66f2fc
+	  );
+	  -webkit-box-decoration-break: clone;
+	  box-decoration-break: clone;
+	}
+
 /* Container */
 
 	.container {
@@ -1674,7 +1689,7 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #e97770 url("img/overlay.png");
+			background: #66FCF1 url("img/overlay.png");
 			color: #fff;
 		}
 
@@ -1725,7 +1740,7 @@ input, select, textarea {
 		input[type="reset"].style3,
 		button.style3,
 		.button.style3 {
-			background: #2f333b url("img/overlay.png");
+			background: #66FCF1;
 			color: #fff;
 		}
 
@@ -1734,7 +1749,8 @@ input, select, textarea {
 			input[type="reset"].style3:hover,
 			button.style3:hover,
 			.button.style3:hover {
-				background-color: #3f434b;
+				background: #fff;
+				color: #66FCF1;
 			}
 
 			input[type="button"].style3:active,
@@ -1742,9 +1758,36 @@ input, select, textarea {
 			input[type="reset"].style3:active,
 			button.style3:active,
 			.button.style3:active {
-				background-color: #1f232b;
+				background: #66FCF1;
+				color: #fff;
 			}
 
+		input[type="button"].style4,
+		input[type="submit"].style4,
+		input[type="reset"].style4,
+		button.style4,
+		.button.style4 {
+			background: #66FCF1;
+			color: #fff !important;
+		}
+
+			input[type="button"].style4:hover,
+			input[type="submit"].style4:hover,
+			input[type="reset"].style4:hover,
+			button.style4:hover,
+			.button.style4:hover {
+				background: #fff;
+				color: #66FCF1 !important;
+			}
+
+			input[type="button"].style4:active,
+			input[type="submit"].style4:active,
+			input[type="reset"].style4:active,
+			button.style4:active,
+			.button.style4:active {
+				background: #66FCF1;
+				color: #fff !important;
+			}
 /* List */
 
 	ul {
@@ -1852,7 +1895,7 @@ input, select, textarea {
 		}
 
 		.feature-list h3 {
-			color: #e97770 !important;
+			color: #1c4042;
 			margin: -0.35em 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -1861,7 +1904,7 @@ input, select, textarea {
 			.feature-list h3:before {
 				display: block;
 				color: #fff;
-				background: #2f333b url("img/overlay.png");
+				background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
 				border-radius: 2.5em;
 				text-align: center;
 				width: 2.5em;
@@ -2004,18 +2047,33 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #e97770 url("img/overlay.png");
+			background: #66FCF1 url("img/overlay.png");
 			color: #eee;
-			color: rgba(255, 255, 255, 0.75);
+			color: rgba(255, 255, 255, 1);
 		}
 
 			.wrapper.style1 .title {
-				background: #e97770 url("img/overlay.png");
+				background: #66FCF1 url("img/overlay.png");
 				color: #fff;
 			}
 
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a {
 				color: #fff;
+			}
+
+		.wrapper.style4 {
+			background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+			color: #eee;
+			color: rgba(255, 255, 255, 1);
+		}
+
+			.wrapper.style4 .title {
+				background: #537895;
+				color: #fff;
+			}
+
+			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6, .wrapper.style4 strong, .wrapper.style4 b, .wrapper.style4 a {
+				color: #66FCF1;
 			}
 
 		.wrapper.style2 {
@@ -2094,7 +2152,7 @@ input, select, textarea {
 		#logo h1 {
 			font-weight: 900;
 			text-transform: uppercase;
-			color: #fff;
+			color: #1c4042;
 			font-size: 2em;
 			letter-spacing: 0.25em;
 		}
@@ -2140,7 +2198,7 @@ input, select, textarea {
 				#nav > ul > li > a, #nav > ul > li > span {
 					display: block;
 					color: #eee;
-					color: rgba(255, 255, 255, 0.75);
+					color: #66FCF1;
 					text-transform: uppercase;
 					text-decoration: none;
 					font-size: 0.7em;
@@ -2263,7 +2321,7 @@ input, select, textarea {
 	}
 
 		#highlights .highlight h3 {
-			color: #e97770;
+			color: #66FCF1;
 			margin: 0 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -2274,7 +2332,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #282b34 url("img/overlay.png");
+		background-image: linear-gradient(to top, #29323c 0%, #485563 100%);;
 		color: #eee;
 		color: rgba(255, 255, 255, 0.5);
 		padding-bottom: 6em;
@@ -2341,7 +2399,7 @@ input, select, textarea {
 			}
 
 		#footer .title {
-			background: #282b34 url("img/overlay.png");
+			background: #485563;
 			color: #eee;
 		}
 
@@ -2368,7 +2426,7 @@ input, select, textarea {
 			}
 
 			#footer .feature-list h3:before {
-				background: #3d4249 url("img/overlay.png");
+				background: #66FCF1;
 			}
 
 /* Copyright */

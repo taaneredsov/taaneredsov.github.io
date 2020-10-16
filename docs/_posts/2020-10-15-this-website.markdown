@@ -2,7 +2,7 @@
 layout: post
 title: "Case 4: This Website"
 short_title: "Case 4"
-date: 2020-10-15 12:00:00 +0200
+date: 2020-10-15 14:07:00 +0200
 category: our-work
 author: Renaat
 ---

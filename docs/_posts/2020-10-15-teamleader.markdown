@@ -2,7 +2,7 @@
 layout: post
 title: "Case 2: Teamleader"
 short_title: "Case 2"
-date: 2020-10-15 12:00:00 +0200
+date: 2020-10-15 11:12:00 +0200
 category: our-work
 author: Renaat
 ---

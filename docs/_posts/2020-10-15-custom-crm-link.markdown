@@ -2,7 +2,7 @@
 layout: post
 title: "Case 1: Mailchimp"
 short_title: "Case 1"
-date: 2020-10-15 12:00:00 +0200
+date: 2020-10-15 10:30:00 +0200
 category: our-work
 author: Renaat
 ---
