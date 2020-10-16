@@ -2124,6 +2124,7 @@ input, select, textarea {
 		/* background: url("../../assets/img/banner.jpg") center center; */
 		/* background-size: cover; */
 		padding: 0;
+		overflow: hidden;
 	}
 
 		#header:before {
@@ -2146,7 +2147,7 @@ input, select, textarea {
 		width: auto;     
         height: 100%;
 		z-index: -10;
-		overflow:hidden;
+		overflow: hidden;
 	}
 
 /* Logo */
