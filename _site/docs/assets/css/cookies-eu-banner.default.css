@@ -1,0 +1,9 @@
+#cookies-eu-banner {
+    background: #282b34 url("img/overlay.png");
+    color: #fff;
+    padding: 6px;
+    font-size: 13px;
+    text-align: center;
+    z-index: 10000;
+    position: sticky;
+}
