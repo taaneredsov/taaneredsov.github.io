@@ -2121,10 +2121,11 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 24em;
-		/* background: url("../../assets/img/banner.jpg") center center; */
+		background: url("../../assets/img/banner.jpg") center center;
 		/* background-size: cover; */
-		padding: 0;
+		padding: 0 !important;
 		overflow: hidden;
+		z-index: -20;
 	}
 
 		#header:before {
@@ -2147,7 +2148,6 @@ input, select, textarea {
 		width: auto;     
         height: 100%;
 		z-index: -10;
-		overflow: hidden;
 	}
 
 /* Logo */
